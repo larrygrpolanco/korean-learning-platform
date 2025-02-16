@@ -1,0 +1,36 @@
+/* Base styles that will apply to entire site */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    color: #007bff;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+}
