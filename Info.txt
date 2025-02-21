@@ -1,0 +1,13 @@
+This setup provides a clean, intuitive structure where:
+
+Each page maintains consistent navigation with breadcrumbs so users always know where they are.
+The module page shows an overview of available units with their sections.
+The unit page displays the actual learning content with audio and images.
+
+To add new content, you would:
+
+Add your audio files to the static/audio/[course]/[module]/[unit]/ directory
+Add your images to the static/images/[course]/[module]/[unit]/ directory
+Update the content structure in your data files
+
+The setup uses minimal styling while maintaining a professional appearance. All the Tailwind classes are straightforward and focused on layout and spacing.
