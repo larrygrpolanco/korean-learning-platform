@@ -11,3 +11,11 @@ Add your images to the static/images/[course]/[module]/[unit]/ directory
 Update the content structure in your data files
 
 The setup uses minimal styling while maintaining a professional appearance. All the Tailwind classes are straightforward and focused on layout and spacing.
+
+
+To add new content, you would:
+
+Create a new unit folder in your module directory
+Add your content.json file with this structure
+Add your media files to the corresponding folders in static
+Update the parent module.json to include the new unit in its units array
