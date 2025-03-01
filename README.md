@@ -1,4 +1,4 @@
-# Language Learning Platform
+# Language Learning Platform (Work in Progress)
 
 A web application for language learning resources, featuring structured courses with audio lessons and exercises.
 
