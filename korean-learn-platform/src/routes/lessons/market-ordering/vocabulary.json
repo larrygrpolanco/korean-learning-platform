@@ -1,0 +1,112 @@
+{
+  "colors": [
+    {
+      "korean": "파란색",
+      "romanization": "pa-ran-saek",
+      "english": "blue",
+      "audioFile": "/audio/colors/blue.mp3",
+      "example": "파란색 물고기 주세요 (Please give me the blue fish)"
+    },
+    {
+      "korean": "빨간색",
+      "romanization": "ppal-gan-saek", 
+      "english": "red",
+      "audioFile": "/audio/colors/red.mp3",
+      "example": "빨간색이 좋아요 (I like the red one)"
+    },
+    {
+      "korean": "초록색",
+      "romanization": "cho-rok-saek",
+      "english": "green",
+      "audioFile": "/audio/colors/green.mp3",
+      "example": "초록색 해초 있어요? (Do you have green seaweed?)"
+    },
+    {
+      "korean": "노란색",
+      "romanization": "no-ran-saek",
+      "english": "yellow",
+      "audioFile": "/audio/colors/yellow.mp3",
+      "example": "노란색 생선 얼마예요? (How much is the yellow fish?)"
+    }
+  ],
+  "fish": [
+    {
+      "korean": "연어",
+      "romanization": "yeon-eo",
+      "english": "salmon",
+      "audioFile": "/audio/fish/salmon.mp3",
+      "example": "연어 1킬로 주세요 (Please give me 1 kilogram of salmon)"
+    },
+    {
+      "korean": "참치",
+      "romanization": "cham-chi",
+      "english": "tuna",
+      "audioFile": "/audio/fish/tuna.mp3",
+      "example": "참치가 신선해요? (Is the tuna fresh?)"
+    },
+    {
+      "korean": "광어",
+      "romanization": "gwang-eo",
+      "english": "flounder",
+      "audioFile": "/audio/fish/flounder.mp3",
+      "example": "광어 회 만들어 주세요 (Please make flounder sashimi)"
+    },
+    {
+      "korean": "고등어",
+      "romanization": "go-deung-eo",
+      "english": "mackerel",
+      "audioFile": "/audio/fish/mackerel.mp3",
+      "example": "고등어 구이용으로 주세요 (Please give me mackerel for grilling)"
+    }
+  ],
+  "phrases": [
+    {
+      "korean": "이거 주세요",
+      "romanization": "i-geo ju-se-yo",
+      "english": "Please give me this",
+      "audioFile": "/audio/phrases/give-me-this.mp3",
+      "context": "Basic ordering phrase"
+    },
+    {
+      "korean": "얼마예요?",
+      "romanization": "eol-ma-ye-yo?",
+      "english": "How much is it?",
+      "audioFile": "/audio/phrases/how-much.mp3",
+      "context": "Asking for price"
+    },
+    {
+      "korean": "신선해요?",
+      "romanization": "sin-seon-hae-yo?",
+      "english": "Is it fresh?",
+      "audioFile": "/audio/phrases/is-it-fresh.mp3",
+      "context": "Asking about freshness"
+    },
+    {
+      "korean": "감사합니다",
+      "romanization": "gam-sa-ham-ni-da",
+      "english": "Thank you",
+      "audioFile": "/audio/phrases/thank-you.mp3",
+      "context": "Polite thanks"
+    }
+  ],
+  "orderingPatterns": [
+    {
+      "pattern": "[color] [fish] 주세요",
+      "example": "파란색 연어 주세요",
+      "english": "Please give me [color] [fish]",
+      "romanization": "[color] [fish] ju-se-yo"
+    },
+    {
+      "pattern": "[fish] 얼마예요?",
+      "example": "참치 얼마예요?",
+      "english": "How much is the [fish]?",
+      "romanization": "[fish] eol-ma-ye-yo?"
+    },
+    {
+      "pattern": "이 [fish] 신선해요?",
+      "example": "이 광어 신선해요?",
+      "english": "Is this [fish] fresh?",
+      "romanization": "i [fish] sin-seon-hae-yo?"
+    }
+  ]
+}

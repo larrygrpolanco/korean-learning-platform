@@ -1,0 +1,44 @@
+{
+  "id": "market-ordering",
+  "title": "Fish Market Ordering",
+  "description": "Learn to order fish at Noryangjin Market. Practice colors and fish names in Korean.",
+  "difficulty": "beginner",
+  "estimatedTime": "10-15 minutes",
+  "tags": ["vocabulary", "speaking", "food", "shopping"],
+  "scenario": {
+    "setting": "Noryangjin Fish Market",
+    "context": "You're at Korea's largest fish market and want to buy fresh fish. Practice identifying colors and fish names, then place your order in Korean.",
+    "culturalNote": "In Korean markets, it's common to ask about freshness and negotiate prices. Vendors appreciate when foreigners try to speak Korean."
+  },
+  "phases": [
+    {
+      "id": "colors",
+      "title": "Color Vocabulary",
+      "type": "vocabulary-practice",
+      "description": "Learn basic colors in Korean to describe what you want",
+      "objective": "Master 4 basic colors in Korean",
+      "requiredCorrect": 3
+    },
+    {
+      "id": "fish-names",
+      "title": "Fish Names",
+      "type": "vocabulary-practice", 
+      "description": "Learn common fish names found at Korean markets",
+      "objective": "Master 4 fish names in Korean",
+      "requiredCorrect": 3
+    },
+    {
+      "id": "ordering",
+      "title": "Place Your Order",
+      "type": "scenario-practice",
+      "description": "Combine colors and fish names to place an order",
+      "objective": "Successfully order fish using Korean phrases",
+      "requiredCorrect": 2
+    }
+  ],
+  "completionCriteria": {
+    "totalQuestions": 10,
+    "passingScore": 8,
+    "timeLimit": null
+  }
+}
