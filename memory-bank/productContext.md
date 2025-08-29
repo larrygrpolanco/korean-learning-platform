@@ -7,7 +7,6 @@ Traditional Korean language learning apps often suffer from:
 - Generic, context-free vocabulary drills
 - Limited real-world application scenarios
 - One-size-fits-all approaches that don't adapt to different learning styles
-- Poor mobile experiences that don't leverage touch interactions effectively
 - Lack of authentic cultural context in learning scenarios
 
 ### The Solution

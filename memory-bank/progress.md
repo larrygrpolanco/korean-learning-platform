@@ -3,17 +3,8 @@
 ## Current Status: Foundation Phase
 
 ### Project Initialization ✅ COMPLETE
-- [x] **SvelteKit Setup**: Project initialized with Tailwind CSS 4.0
-- [x] **Development Environment**: ESLint, Prettier, and build tools configured
-- [x] **Memory Bank System**: Comprehensive documentation structure created
-- [x] **Project Philosophy**: Clear architectural principles established
 
 ### Memory Bank Documentation ✅ COMPLETE
-- [x] **projectbrief.md**: Core mission and requirements documented
-- [x] **productContext.md**: User experience goals and content strategy defined
-- [x] **systemPatterns.md**: Architecture patterns and component design established
-- [x] **techContext.md**: Technology stack and development environment documented
-- [x] **activeContext.md**: Current work focus and next steps outlined
 
 ## What Works
 
@@ -32,28 +23,8 @@
 ## What's Left to Build
 
 ### Phase 1: Core Structure ✅ COMPLETE
-- [x] **API Route Structure**: Create placeholder endpoints for future AI integration
-  - `/src/routes/api/openrouter/+server.js`
-  - `/src/routes/api/speech/tts/+server.js`
-  - `/src/routes/api/speech/stt/+server.js`
-  - `/src/routes/api/images/generate/+server.js`
-
-- [x] **Shared Components**: Basic UI building blocks
-  - `Button.svelte` - Primary/secondary button styles with Svelte 5 runes
-  - `Card.svelte` - Content container component with accessibility fixes
-  - `Progress.svelte` - Progress indicator with percentage display
-  - `LessonCard.svelte` - Homepage lesson preview with difficulty badges
-
-- [x] **Component Directory Structure**:
-  - `/src/lib/components/ui/` - Basic UI elements
-  - `/src/lib/components/lesson/` - Lesson-specific components
-  - `/src/lib/components/layout/` - Layout components (ready for expansion)
 
 ### Phase 2: Homepage Implementation ✅ COMPLETE
-- [x] **Homepage Redesign**: Replace default SvelteKit welcome page
-- [x] **Lesson Grid Layout**: Mobile-responsive lesson navigation with 3-column grid
-- [x] **Lesson Preview Cards**: Show lesson title, description, difficulty, time, tags
-- [x] **Navigation System**: Clear paths to individual lessons with "Start Lesson" buttons
 
 ### Phase 3: First Lesson - Market Ordering ✅ COMPLETE
 - [x] **Lesson Package Structure**: Create `/src/routes/lessons/market-ordering/`
@@ -71,11 +42,8 @@
   - Auto-advancement between questions and phases
   - Lesson completion with score display
 
-### Phase 4: Polish and Testing ✅ COMPLETE
-- [x] **Mobile Responsiveness**: Tested on mobile viewport, works perfectly
-- [x] **Touch Interactions**: 44px minimum touch targets implemented
-- [x] **Performance Optimization**: Fast loading with Vite HMR
-- [x] **Accessibility**: Fixed button nesting issues, proper ARIA labels
+### Phase 4: Polish and Testing 
+- **Market Ordering Game**: Needs a lot of work, very basic right now.
 
 ## Current Status Details
 
@@ -96,10 +64,7 @@
 - **Content Strategy**: Defining Korean vocabulary and lesson structure
 
 ### Next Milestone
-**Target**: Complete Phase 1 (Core Structure) by end of current session
-- Create API route placeholders
-- Build shared UI components
-- Set up lesson directory structure
+**Target**: Improve on Market Lesson
 
 ## Known Issues
 
@@ -133,20 +98,6 @@
 2. **JSON Content Strategy**: Flexible enough for experimentation, structured enough for consistency
 3. **Component Isolation**: Shared components only when 3+ lessons need them
 4. **Cultural Authenticity**: Korean social context must be embedded naturally
-
-## Success Metrics
-
-### Phase 1 Success Criteria
-- [ ] All API route placeholders created and accessible
-- [ ] Shared components render correctly on mobile and desktop
-- [ ] Component directory structure follows established patterns
-- [ ] Code quality meets formatting and linting standards
-
-### Overall Project Success
-- **User Experience**: Users can complete Market Ordering lesson in 10-15 minutes
-- **Technical Performance**: < 2 second load time on 3G mobile connection
-- **Code Quality**: New lessons can be created following established patterns
-- **Learning Effectiveness**: Users feel confident using learned vocabulary
 
 ## Risk Mitigation Status
 

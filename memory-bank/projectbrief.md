@@ -55,11 +55,7 @@ Create a mobile-first Korean language learning webapp where each lesson/game is 
 ## First Lesson Specification
 
 **Market Ordering at Noryangjin Fish Market**
-- **Phase 1**: Color vocabulary (파란색, 빨간색) with "I want blue" patterns
-- **Phase 2**: Fish names (연어, 참치, 광어) with ordering practice
-- **Game Mechanics**: Multiple choice selection, Korean pronunciation
-- **Progress Tracking**: Completion of vocabulary sections within lesson
-- **Mobile Interface**: Touch-friendly buttons, clear typography
+- **Imporve**: A lot of ways to make this fun, but testing is needed
 
 ## Non-Goals (Initially)
 - User authentication or accounts
